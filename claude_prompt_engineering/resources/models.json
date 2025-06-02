@@ -1,0 +1,92 @@
+{
+  "claude-opus-4": {
+    "name": "Claude Opus 4",
+    "description": "Modelo mais capaz e inteligente da Anthropic",
+    "provider": "Anthropic",
+    "context_window": 200000,
+    "max_output": 32000,
+    "features": {
+      "extended_thinking": true,
+      "vision": true,
+      "multilingual": true
+    },
+    "prompt_format": {
+      "system": "system",
+      "user": "user",
+      "assistant": "assistant"
+    },
+    "training_cutoff": "2025-03"
+  },
+  "claude-sonnet-4": {
+    "name": "Claude Sonnet 4",
+    "description": "Modelo de alto desempenho da Anthropic",
+    "provider": "Anthropic",
+    "context_window": 200000,
+    "max_output": 64000,
+    "features": {
+      "extended_thinking": true,
+      "vision": true,
+      "multilingual": true
+    },
+    "prompt_format": {
+      "system": "system",
+      "user": "user",
+      "assistant": "assistant"
+    },
+    "training_cutoff": "2025-03"
+  },
+  "claude-3-7-sonnet": {
+    "name": "Claude Sonnet 3.7",
+    "description": "Modelo de alto desempenho com pensamento estendido",
+    "provider": "Anthropic",
+    "context_window": 200000,
+    "max_output": 64000,
+    "features": {
+      "extended_thinking": true,
+      "vision": true,
+      "multilingual": true
+    },
+    "prompt_format": {
+      "system": "system",
+      "user": "user",
+      "assistant": "assistant"
+    },
+    "training_cutoff": "2024-10"
+  },
+  "gpt-4": {
+    "name": "GPT-4",
+    "description": "Modelo avançado da OpenAI",
+    "provider": "OpenAI",
+    "context_window": 128000,
+    "max_output": 4096,
+    "features": {
+      "extended_thinking": false,
+      "vision": true,
+      "multilingual": true
+    },
+    "prompt_format": {
+      "system": "system",
+      "user": "user",
+      "assistant": "assistant"
+    },
+    "training_cutoff": "2023-04"
+  },
+  "gemini-pro": {
+    "name": "Gemini Pro",
+    "description": "Modelo avançado do Google",
+    "provider": "Google",
+    "context_window": 32000,
+    "max_output": 8192,
+    "features": {
+      "extended_thinking": false,
+      "vision": true,
+      "multilingual": true
+    },
+    "prompt_format": {
+      "system": "system",
+      "user": "user",
+      "assistant": "model"
+    },
+    "training_cutoff": "2023-12"
+  }
+}
